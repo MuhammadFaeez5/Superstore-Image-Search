@@ -80,7 +80,7 @@ model, preprocess, device = load_resources()
 image_features, image_paths = load_vectors('clip_model (1).pkl')
 
 st.title("🛒 Superstore Visual Search")
-st.markdown("Search our inventory by uploading a photo. Results are filtered at **70% similarity**.")
+st.markdown("Search Goods by uploading a photo. Results are filtered at **70% similarity**.")
 
 
 THRESHOLD = 0.70
